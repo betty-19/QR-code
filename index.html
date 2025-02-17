@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | QR code component</title>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-direction: column;
+            background-color: hsl(212, 45%, 89%);
+        }
+        .wrapper{
+        
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: hsl(0,0%,100%);
+            padding:15px;
+            border-radius:20px;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 15px;
+            box-shadow: 3px 1px 30px hsla(212, 46%, 89%, 0.849);
+        }
+        .wrapper h3{
+            font-weight: 900;
+            margin-block: 20px;
+        }
+        .wrapper p{
+            opacity:0.7;
+         
+            margin-bottom:20px;
+            line-height: 20px;
+        }
+       
+        .qr-img{
+            width:100%;
+            height: 270px;
+        }
+        .qr-img img{
+            width: 100%;
+            height: 100%;
+            border-radius:10px;
+        }
+        .attribution { font-size: 12px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="qr-img">
+            <img src="./assests/image-qr-code.png" alt="">
+        </div>
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+    </div>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Betelhem Sintayehu</a>.
+      </div>
+</body>
+</html>
